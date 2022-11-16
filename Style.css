@@ -77,7 +77,7 @@ header {
     width: 100%;
     flex-wrap: nowrap;  
     flex-direction: row;
-    position: fixed;
+    position: absolute;
     z-index: 99;
     background-color: #F5F5F5;
     border-bottom: var(--color3) 1px solid;
@@ -85,7 +85,7 @@ header {
 
 @media (max-width:390) {
     header{
-        width: 390px;
+        width: 280px;
         height: 80px;
     }
     
@@ -154,8 +154,11 @@ header {
 
         width: 110.94px;
         height: 29.37px;
+        left: 20px;
     }
-    
+    .container{
+       
+    }
 }
 
 
@@ -467,8 +470,8 @@ header {
 @media(max-width:767px)
 {
     .right-banner .images img{
-        width: 440px;
-        height: 768px;
+        width: 235px;
+        height: 186.07px;
         
     }
 
@@ -492,7 +495,7 @@ header {
 
 @media (max-width:767px) {
     .right-banner .img img{
-        width: 438px;
+        width:235px;
         position: absolute;
         left: 7px;
         top: 508px;
