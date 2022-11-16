@@ -152,13 +152,8 @@ header {
 @media (max-width:390px) {
     .logo_cont{
 
-        position: absolute;
-width: 110.94px;
-height: 29.37px;
-left: 11px;
-top: 6px;
-
-
+        width: 110.94px;
+        height: 29.37px;
     }
     
 }
@@ -201,7 +196,7 @@ top: 6px;
     }
 }
 
-@media(max-width:390){
+@media(max-width:767px){
     .headlinks ul{
         display: none;
         text-align: center;
