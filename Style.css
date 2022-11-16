@@ -83,7 +83,7 @@ header {
     border-bottom: var(--color3) 1px solid;
 }
 
-@media (max-width:390px) {
+@media (max-width:390) {
     header{
         width: 390px;
         height: 80px;
@@ -152,7 +152,13 @@ header {
 @media (max-width:390px) {
     .logo_cont{
 
-        
+        position: absolute;
+width: 110.94px;
+height: 29.37px;
+left: 11px;
+top: 6px;
+
+transform: rotate(-0.14deg);
     }
     
 }
@@ -195,7 +201,7 @@ header {
     }
 }
 
-@media(max-width:767px){
+@media(max-width:390){
     .headlinks ul{
         display: none;
         text-align: center;
